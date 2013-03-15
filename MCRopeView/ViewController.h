@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    __weak IBOutlet UIView *_redSquareView;
+    __weak IBOutlet UILabel *_redSquareLabel;
+    
+    __weak IBOutlet UIView *_blueSquareView;
+    __weak IBOutlet UILabel *_blueSquareLabel;
+}
 
 @end

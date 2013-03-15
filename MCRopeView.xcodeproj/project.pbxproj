@@ -18,6 +18,8 @@
 		86B6E59516F3512A0000C119 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B6E59416F3512A0000C119 /* Default-568h@2x.png */; };
 		86B6E59816F3512A0000C119 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6E59716F3512A0000C119 /* ViewController.m */; };
 		86B6E59B16F3512A0000C119 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B6E59916F3512A0000C119 /* ViewController.xib */; };
+		86B6E5A416F351470000C119 /* MCRopeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6E5A316F351470000C119 /* MCRopeView.m */; };
+		86FE70E316F390CF00502A07 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 86FE70E216F390CF00502A07 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		86B6E59616F3512A0000C119 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		86B6E59716F3512A0000C119 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		86B6E59A16F3512A0000C119 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		86B6E5A216F351470000C119 /* MCRopeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCRopeView.h; path = Classes/MCRopeView.h; sourceTree = "<group>"; };
+		86B6E5A316F351470000C119 /* MCRopeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCRopeView.m; path = Classes/MCRopeView.m; sourceTree = "<group>"; };
+		86FE70E216F390CF00502A07 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,8 @@
 		86B6E57216F351290000C119 = {
 			isa = PBXGroup;
 			children = (
+				86FE70E216F390CF00502A07 /* README.md */,
+				86B6E5A116F3513C0000C119 /* Classes */,
 				86B6E58416F3512A0000C119 /* MCRopeView */,
 				86B6E57D16F3512A0000C119 /* Frameworks */,
 				86B6E57C16F3512A0000C119 /* Products */,
@@ -105,6 +112,15 @@
 				86B6E59416F3512A0000C119 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86B6E5A116F3513C0000C119 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				86B6E5A216F351470000C119 /* MCRopeView.h */,
+				86B6E5A316F351470000C119 /* MCRopeView.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +179,7 @@
 				86B6E59316F3512A0000C119 /* Default@2x.png in Resources */,
 				86B6E59516F3512A0000C119 /* Default-568h@2x.png in Resources */,
 				86B6E59B16F3512A0000C119 /* ViewController.xib in Resources */,
+				86FE70E316F390CF00502A07 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +193,7 @@
 				86B6E58B16F3512A0000C119 /* main.m in Sources */,
 				86B6E58F16F3512A0000C119 /* AppDelegate.m in Sources */,
 				86B6E59816F3512A0000C119 /* ViewController.m in Sources */,
+				86B6E5A416F351470000C119 /* MCRopeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +316,7 @@
 				86B6E5A016F3512A0000C119 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
